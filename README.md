@@ -4,12 +4,6 @@
 
 In this group project, you will be allowing a user to interact with a basic product ordering database.
 
-## Setup
-
-```bash
-mkdir -p workspace/python/group-projects/bangazon && cd $_
-```
-
 ## Ordering System Interface
 
 ### Main Menu
