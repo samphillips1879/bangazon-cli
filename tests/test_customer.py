@@ -1,7 +1,7 @@
 import unittest
 import sys
 sys.path.append("../")
-from Models.customers import Customer
+from models.customers import Customer
 
 class TestCustomer(unittest.TestCase):
 	"""
