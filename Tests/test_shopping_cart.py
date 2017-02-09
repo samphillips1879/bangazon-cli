@@ -1,7 +1,7 @@
 import unittest
 import sys
 sys.path.append("../")
-from Models.ShoppingCart import ShoppingCart
+from models.shopping_cart import ShoppingCart
 
 
 class TestShoppingCart(unittest.TestCase):
@@ -60,7 +60,8 @@ class TestShoppingCart(unittest.TestCase):
         Method to test whether the shopping cart can be closed
         """
         self.current_cart.accept_payment(payment_method)
-        self.assertFalse(self.current_cart.order_is_open())
+        self.assertEqual(self.current_cart.get_payment_method(), [(1, "Visa", "1234567812345678")])
+        self.assertTrue(self.current_cart.order_is_closed())
 
 
 if __name__ == '__main__':
