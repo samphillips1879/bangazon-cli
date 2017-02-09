@@ -7,5 +7,7 @@ class ShoppingCart():
     Methods:
     get_all_products
     add_product
+    get_cart_total
+    accept_payment
     """
     
