@@ -8,8 +8,8 @@ class TestShoppingCart():
     A testsuit for the Shopping cart Feature of Bangazon CLI
 
     Methods:
-    
-
+    test_current_cart_should_be_ShoppingCart_object
+    test_ShoppingCart_should_add_product
     """
 
     def test_current_cart_should_be_ShoppingCart_object(self):
