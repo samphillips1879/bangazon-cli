@@ -5,6 +5,7 @@ class ShoppingCart():
     upon customer payment processing.
 
     Methods:
-
+    get_all_products
+    add_product
     """
     
