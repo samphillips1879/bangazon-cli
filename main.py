@@ -39,7 +39,3 @@ while running:
 
 
 
-
-
-    if running == False:
-        break
