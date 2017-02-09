@@ -4,6 +4,7 @@
 
 running = True
 
+# Bangazon CLI user input loop. After running the file, it prompts users to make selections which will navigate them to different interfaces to access the functionality of the Bangazon CLI. Users also have the option of exiting the program altogether.
 while running:
     selected_option = input("""
 *********************************************************
