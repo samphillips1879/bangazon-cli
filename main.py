@@ -5,7 +5,8 @@
 running = True
 
 while running:
-    selected_option = input("""*********************************************************\n**  Welcome to Bangazon! Command Line Ordering System  **\n*********************************************************\n
+    selected_option = input("""
+*********************************************************\n**  Welcome to Bangazon! Command Line Ordering System  **\n*********************************************************\n
 1. Create a customer account
 2. Choose active customer
 3. Create a payment option
@@ -13,14 +14,41 @@ while running:
 5. Complete an order
 6. See product popularity
 7. Leave Bangazon!
+
+
+
+
+
+
+
+
+
+
+
+
 """)
 
     if selected_option == "1":
-        print("customer yo")
+        print("Create a customer account")
+    elif selected_option == "2":
+        print("Choose active customer")
+    elif selected_option == "3":
+        print("Create a payment option")
+    elif selected_option == "4":
+        print("Add product to shopping cart")
+    elif selected_option == "5":
+        print("complete an order")
+    elif selected_option == "6":
+        print("see product popularity")
+    elif selected_option == "7":
+        print("goodbye")
+        running = False
 
 
 
 
 
 
-    running = False
+
+    if running == False:
+        break
