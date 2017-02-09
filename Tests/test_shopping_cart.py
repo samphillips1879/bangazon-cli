@@ -4,7 +4,7 @@ sys.path.append("../")
 from Models.ShoppingCart import ShoppingCart
 
 
-class TestShoppingCart():
+class TestShoppingCart(unittest.TestCase):
     """
     A test suite for the Shopping cart Feature of Bangazon CLI
 
@@ -61,3 +61,7 @@ class TestShoppingCart():
         """
         self.current_cart.accept_payment(payment_method)
         self.assertFalse(self.current_cart.order_is_open())
+
+
+if __name__ == '__main__':
+    unittest.main()

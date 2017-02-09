@@ -10,4 +10,27 @@ class ShoppingCart():
     get_cart_total
     accept_payment
     """
-    
+
+
+    def get_all_products():
+        """
+        """
+        pass
+
+
+    def add_product():
+        """
+        """
+        pass
+
+
+    def get_cart_total():
+        """
+        """
+        pass
+
+
+    def accept_payment():
+        """
+        """
+        pass
